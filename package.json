@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"grunt-svgmin",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "grunt-svgmin",
+    "description": "api documentation for [grunt-svgmin (v4.0.0)](https://github.com/sindresorhus/grunt-svgmin#readme) [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-svgmin.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-svgmin) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-svgmin.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-svgmin)",
     "devDependencies": {
-        "grunt-svgmin": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "grunt-svgmin": "*",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-grunt-svgmin",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-grunt-svgmin",
+    "keywords": [
+        "documentation",
+        "grunt-svgmin"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_grunt_svgmin.js",
+    "name": "npmdoc-grunt-svgmin",
+    "nameAlias": "npmdoc_grunt_svgmin",
+    "nameOriginal": "npmdoc-grunt-svgmin",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-grunt-svgmin"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
     "version": "0.0.1"
 }
