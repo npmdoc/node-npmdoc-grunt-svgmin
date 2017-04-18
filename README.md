@@ -1,9 +1,14 @@
-# api documentation for  [grunt-svgmin (v4.0.0)](https://github.com/sindresorhus/grunt-svgmin#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-svgmin.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-svgmin) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-svgmin.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-svgmin)
+# npmdoc-grunt-svgmin
+
+#### api documentation for  [grunt-svgmin (v4.0.0)](https://github.com/sindresorhus/grunt-svgmin#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-svgmin.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-svgmin) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-svgmin.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-svgmin)
+
 #### Minify SVG
 
-[![NPM](https://nodei.co/npm/grunt-svgmin.png?downloads=true)](https://www.npmjs.com/package/grunt-svgmin)
+[![NPM](https://nodei.co/npm/grunt-svgmin.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/grunt-svgmin)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-grunt-svgmin/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-grunt-svgmin_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-grunt-svgmin/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-grunt-svgmin/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-grunt-svgmin/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-grunt-svgmin/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-grunt-svgmin/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-grunt-svgmin/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +23,6 @@
 {
     "author": {
         "name": "Sindre Sorhus",
-        "email": "sindresorhus@gmail.com",
         "url": "sindresorhus.com"
     },
     "bugs": {
@@ -64,8 +68,7 @@
     "license": "MIT",
     "maintainers": [
         {
-            "name": "sindresorhus",
-            "email": "sindresorhus@gmail.com"
+            "name": "sindresorhus"
         }
     ],
     "name": "grunt-svgmin",
@@ -73,7 +76,6 @@
     "peerDependencies": {
         "grunt": ">=0.4.0"
     },
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/sindresorhus/grunt-svgmin.git"
@@ -87,16 +89,6 @@
     }
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module grunt-svgmin](#apidoc.module.grunt-svgmin)
-
-
-
-# <a name="apidoc.module.grunt-svgmin"></a>[module grunt-svgmin](#apidoc.module.grunt-svgmin)
 
 
 
