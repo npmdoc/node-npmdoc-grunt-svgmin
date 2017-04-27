@@ -1,6 +1,6 @@
 # npmdoc-grunt-svgmin
 
-#### api documentation for  [grunt-svgmin (v4.0.0)](https://github.com/sindresorhus/grunt-svgmin#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-svgmin.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-svgmin) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-svgmin.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-svgmin)
+#### basic api documentation for  [grunt-svgmin (v4.0.0)](https://github.com/sindresorhus/grunt-svgmin#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-svgmin.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-svgmin) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-svgmin.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-svgmin)
 
 #### Minify SVG
 
@@ -86,7 +86,8 @@
     "version": "4.0.0",
     "xo": {
         "esnext": true
-    }
+    },
+    "bin": {}
 }
 ```
 
